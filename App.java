@@ -21,4 +21,18 @@ public class App {
        return fatorialRecursivo(n-1);
 
         }
+      /*OU
+        if ((n==0) || (n==1))
+        {
+            return 1;
+        }
+        else
+        {
+            if(n>1)
+            {
+                return n * fatorialRecursivo(n-1);
+            }
+        }
+        return -1;
+        */
     }
